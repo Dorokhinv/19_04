@@ -13,8 +13,8 @@ public class Cat {
 //создали "большую кошку"
         Cat smallCat = new Cat(7000, "Kuzya", 1, "White");
 //создали "маленькую кошку"
-        bigCat.weight += 100; //обратились к полю "вес" большой кошки
-        smallCat.weight += 1000;
+        bigCat.weight += 1; //обратились к полю "вес" большой кошки
+        smallCat.weight += 10;
         System.out.println("Вес большой кошки = " + bigCat.weight);
         System.out.println("Вес маленькой кошки = " + smallCat.weight);
     }
